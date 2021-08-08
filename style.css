@@ -1,5 +1,6 @@
 body{
   font-family: 'Barlow Condensed', sans-serif;
+  margin: 0%;
 }
 .name{
   color: orange;
@@ -9,6 +10,10 @@ h1{
 }
 section{
   display: flex;
+  margin-bottom: 150px;
+  
+}
+.first-section{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -27,4 +32,10 @@ section{
   color: white;
   font-weight: 600;
   background-image: linear-gradient(orange, tomato);
+}
+.second-section{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  
 }
